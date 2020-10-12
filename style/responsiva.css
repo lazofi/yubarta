@@ -1,0 +1,89 @@
+@media screen and (max-width: 1024px){
+	*{
+		font-size: 30px!important;
+	}
+
+	/*inicio*/
+	.aaaaa{
+		margin:10px!important;
+	}
+
+	.contenedor, .controles{
+		top: 150px!important;
+	}
+
+	.logo{
+		height: 30px!important;
+	}
+
+	.seccion-2, .linea, .dir, input{
+		font-size: 30px!important;
+	}
+	
+	.seccion-1{
+		font-size: 60px!important;
+	}
+
+	/*integrantes*/
+	.columna{
+		display: flex;
+		flex-direction: column;
+		width: 100%!important;
+	}
+
+	.perfil{
+		width: 80%!important;
+		margin: 10%!important;
+		height: 1400px!important;
+		border-radius: 15px!important;
+	}
+
+	.nombre{
+		font-size: 60px!important;
+		margin: 30px 60px!important;
+		margin-top: 60px!important;
+	}
+
+	.tesitura{
+		margin: 75px!important;
+	}
+
+	.btn{
+		padding: 15px 45px!important;
+		font-size: 36px!important;
+		border-radius: 45px!important;
+		width: 100%!important;
+	}
+
+	/*contacto*/
+	.muchotexto, .tesitura{
+		font-size: 45px!important;
+	}	
+
+	.ajustar_ancho{
+		width: 80%!important;
+	}
+
+	.red{
+		height: 150px!important;
+	}
+
+	.mapa{
+		width: 60%!important;
+		height: 700px!important;
+		margin: 10%!important;		
+	}
+
+	.dir{
+		margin-top: 35px!important;
+	}
+
+	input{
+		width: 100%!important;
+		height: 90px!important;
+	}
+
+	.i3{
+		height: 300px!important;
+	}
+}

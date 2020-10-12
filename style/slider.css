@@ -1,0 +1,28 @@
+/*iconos de las flechas*/
+.flecha{
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  text-shadow: 2px 1px #000000;
+}
+
+/*la informacion no es visible
+hasta que le dan clic a la flecha*/
+div.contenedor{
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+/*div.contenedor:first-child{
+  opacity: 1;
+}*/
+
+div.contenedor:target{
+  opacity: 1;
+}
+
+/*posicion de las flechas*/
+.controles{
+  top: 100px;
+  position: fixed;
+}
